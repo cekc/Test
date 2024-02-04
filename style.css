@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    font-family: roboto;
+}
+body{
+    background-color: #F3F4EF;
+    
+}
+#language-div{
+    height: 3vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+#language-div * {
+    display: inline;
+    padding-top: 10px;
+    margin-right: 5px;
+    color: #425348;
+}
+#language-div a:last-child{
+    margin-right: 20px;
+}
