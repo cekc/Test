@@ -1,3 +1,19 @@
+/*Table of content
+
+1. general - all, html og semnatiske tags
+2. classes
+3. body
+    3.1 topbar
+    3.2 header
+        3.2.1 logo and menu
+        3.2.2 banner
+        3.2.3 headline
+    3.3 main
+        3.3.1 section 1
+        3.3.2 section 2
+    3.4 footer
+*/
+
 /*general*/
 *{
     margin: 0px;
@@ -97,6 +113,7 @@ header{
     "headline";
     grid-template-rows: 100px 670px 150px;
 }
+/*logo and menu*/
 .logo-menu-div{
     grid-area: "logo and menu";
     display: flex;
@@ -121,6 +138,7 @@ button{
     cursor: pointer;
     margin-right: 15px;
 }
+/*header banner*/
 header img{
     grid-area:"imagebanner";
     height: auto;
@@ -131,6 +149,7 @@ header img{
     background-color: #779882;
     text-align: center;
 }
+/*header headline*/
 .headline-div *{
     margin-top: 10px;
 }
